@@ -23,3 +23,15 @@ p {
     margin: 15px;
     padding: 30px;
 }
+
+.gallery {
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.gallery .img {
+    flex: 1 0 20%;
+    height: 50px;
+    background: blue;
+    margin: 10px;
+}
